@@ -1,0 +1,872 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whitecolor">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:divider="@drawable/empty_tall_divider"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:paddingBottom="12dp"
+        android:showDividers="middle">
+
+        <!--<android.support.v7.widget.CardView-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--card_view:cardCornerRadius="4dp">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="20"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="8dp"-->
+        <!--android:weightSum="10">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="3"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/marketcaptext"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="6dp"-->
+        <!--android:text="102.457.482.034 €"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/blackColor"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold"/>-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/marketcaptexthelp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="7"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingBottom="4dp"-->
+        <!--android:text="@string/marketcaptext"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/blackColor"-->
+        <!--android:textSize="12sp"/>-->
+
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/limitlefttitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center"
+                    android:animateLayoutChanges="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:text="@string/limitlefttitle"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="10sp"
+                    android:textStyle="italic"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="40">
+
+
+                    <LinearLayout
+                        android:id="@+id/limitlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:animateLayoutChanges="true"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentcreditlimit"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:text="0€"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/investmentcreditlimithelp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:animateLayoutChanges="true"
+                            android:orientation="horizontal"
+                            android:weightSum="10">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_gravity="center_vertical|center_horizontal|center"
+                                    android:layout_marginBottom="0dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_weight="1"
+                                    android:animateLayoutChanges="true"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center_vertical|center_horizontal|center"
+                                    android:text="@string/investmentcreditlimit"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/lighterdark"
+                                    android:textSize="12sp"
+                                    card_view:layout_constraintBottom_toBottomOf="parent"
+                                    card_view:layout_constraintEnd_toEndOf="parent"
+                                    card_view:layout_constraintStart_toStartOf="parent"
+                                    card_view:layout_constraintTop_toTopOf="parent"/>
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="11dp"
+                                    android:layout_height="11dp"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_marginRight="3dp"
+                                    android:layout_weight="9"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/editicon"
+                                    card_view:layout_constraintBottom_toBottomOf="parent"
+                                    card_view:layout_constraintStart_toEndOf="@+id/textView2"
+                                    card_view:layout_constraintTop_toTopOf="parent"/>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentcreditleft"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:text="0€"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/investmentcredithelp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="@string/investmentcredit"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/worthspenttitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center"
+                    android:animateLayoutChanges="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:text="@string/worthspenttitle"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="10sp"
+                    android:textStyle="italic"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:orientation="horizontal"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="20"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:animateLayoutChanges="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/investmentvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:animateLayoutChanges="true"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:padding="6dp"
+                                    android:text="0 €"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/lighterdark"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/investmentvaluehelp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="7"
+                                android:animateLayoutChanges="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/investmentvaluetext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:animateLayoutChanges="true"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:text="@string/investmentvalue"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/lighterdark"
+                                    android:textSize="12sp"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:orientation="horizontal"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="20"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:animateLayoutChanges="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/investmentspent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:animateLayoutChanges="true"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:padding="6dp"
+                                    android:text="0€"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/lighterdark"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/investmentspenthelp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="7"
+                                android:animateLayoutChanges="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:animateLayoutChanges="true"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:text="@string/investmentspent"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/lighterdark"
+                                    android:textSize="12sp"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/investmentnoinvestmentsavailable"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="Available Investments insert quantity string"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_weight="5"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="left"
+                        android:text="@string/investmentoverviewtext"
+                        android:textAlignment="textEnd"
+                        android:textAllCaps="true"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="10sp"
+                        android:textStyle="italic"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/investmentcontainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/investmentheader"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#999"
+                        android:textSize="10sp"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/investmentRV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:listitem="@layout/investmentline"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:weightSum="30">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentperformancepercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:text="0,00 %"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/greenpercentage"
+                                android:textSize="22sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/investmentpercentagehelp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentperformancepercentagetext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="@string/performancestring"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="10sp"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentfiat"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:text="0€"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/greenpercentage"
+                                android:textSize="22sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="@string/investmentfiatprofit"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="10sp"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentpercentage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:text="0,00 %"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/greenpercentage"
+                                android:textSize="22sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/investmentpercentagehelp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:animateLayoutChanges="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/investmentpercentagetext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:animateLayoutChanges="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="@string/investmentpercentageprofit"
+                                android:textAlignment="center"
+                                android:textColor="@color/lighterdark"
+                                android:textSize="10sp"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/transactioncount"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="Blablabla"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/transactionTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/transactionsString"
+                        android:textAlignment="textEnd"
+                        android:textAllCaps="true"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="10sp"
+                        android:textStyle="italic"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/gototransactionoverview"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="10"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/gotodetailedtransactionoverview"
+                    android:textColor="@color/whitecolor"
+                    android:textSize="10sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/transactionheader"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#999"
+                        android:textSize="10sp"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/transactionsRV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        tools:listitem="@layout/transactionline">
+
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="6dp"
+                android:weightSum="10">
+
+
+                <Button
+                    android:id="@+id/investmentbuttonleft"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="5"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/shortrate"
+                    android:textColor="@color/whitecolor"
+                    android:textSize="10sp"/>
+
+                <Button
+                    android:id="@+id/investmentbuttonright"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="5"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/ssomethingsmissing"
+                    android:textColor="@color/whitecolor"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="4dp">
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

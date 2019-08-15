@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:background="@color/whitecolor"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:animateLayoutChanges="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/buycellimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ethereumclassic"/>
+
+            <TextView
+                android:id="@+id/buycellimagetext"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="Ethereum Classic (ETC)"
+                android:textAlignment="center"
+                android:textColor="@color/lighterdark"
+                android:textSize="8sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal"
+            android:weightSum="60">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/buyprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:padding="2dp"
+                        android:text="-"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/buypricetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_weight="7"
+                        android:paddingBottom="4dp"
+                        android:paddingRight="4dp"
+                        android:text="@string/sellcurrentprice"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/buychange24h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_weight="3"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:padding="6dp"
+                        android:text="---"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/buychange24htext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_weight="7"
+                        android:paddingBottom="4dp"
+                        android:text="@string/change24h"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/buybuybutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/actionbuy"
+                        android:textColor="@color/whitecolor"
+                        android:textSize="10sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

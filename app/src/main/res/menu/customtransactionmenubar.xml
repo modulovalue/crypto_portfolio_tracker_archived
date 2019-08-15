@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/statseuroordollar"
+        android:enabled="true"
+        android:title="@string/statsshowdollars"
+        android:icon="@drawable/ic_action_eurodollar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/customtransactiontype"
+        android:enabled="true"
+        android:title="Verkaufen"
+        app:showAsAction="ifRoom"/>
+
+</menu>

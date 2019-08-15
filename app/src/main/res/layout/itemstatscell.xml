@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:background="@color/whitecolor"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/statcellimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="6dp"
+                app:srcCompat="@drawable/ethereumclassic"/>
+
+            <TextView
+                android:id="@+id/statcellimagetext"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="Ethereum Classic (ETC)"
+                android:textAlignment="center"
+                android:textColor="@color/lighterdark"
+                android:textSize="8sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal"
+            android:weightSum="60">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/change24h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:padding="6dp"
+                        android:text="---"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/percentagehelplayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/change24htext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:paddingBottom="4dp"
+                        android:text="@string/change24h"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/circulationsupply"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:text="-"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/circulationsupplyhelptext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:paddingBottom="4dp"
+                        android:text="@string/circulationsupply"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="10sp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/circulationsupplyhelptext2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/statsmarketcap"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:text="-"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/statsmarketcaptext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/marketcaptext"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="10sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/statsprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:padding="6dp"
+                        android:paddingTop="10dp"
+                        android:text="-"
+                        android:textAlignment="center"
+                        android:textColor="@color/lighterdark"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:id="@+id/markedimageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:padding="1dp"
+
+                        android:scaleType="fitEnd"
+                        app:srcCompat="@drawable/markedcurrency"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

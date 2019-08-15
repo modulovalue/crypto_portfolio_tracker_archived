@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="modestasvalauskas.com.cryptopurchasesimulator">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--<uses-permission android:name="com.android.vending.BILLING"/> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".screens.MainActivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screens.Tutorial.WelcomeClass"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeScreenTheme2"/>
+        <activity
+            android:name=".screens.DonateActivity.DonateActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".screens.DonateActivity.DisplayAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".screens.TransactionActivity.TransactionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".screens.ProfileActivity.ProfileActivity">
+        </activity>
+        <activity android:name=".screens.CustomTransactionActivity.CustomTransactionActivity">
+        </activity>
+    </application>
+
+</manifest>

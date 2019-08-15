@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/statsprofilechange"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_iconprofile"
+        android:title="@string/changeprofile"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/statseuroordollar"
+        android:enabled="true"
+        android:title="@string/statsshowdollars"
+        android:icon="@drawable/ic_action_eurodollar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item-->
+        <!--android:id="@+id/statshelp"-->
+        <!--android:enabled="true"-->
+        <!--android:title="@string/statshelp"-->
+        <!--android:icon="@drawable/ic_action_help"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+</menu>

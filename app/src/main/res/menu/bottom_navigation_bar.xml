@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_investments"
+        android:enabled="true"
+        android:icon="@drawable/bottombarinvestment"
+        android:title="@string/bottombaroverview"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_stats"
+        android:enabled="true"
+        android:icon="@drawable/bottombarstats"
+        android:title="@string/bottombarprices"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_buy"
+        android:enabled="true"
+        android:icon="@drawable/bottombarbuy"
+        android:title="@string/bottombarbuy"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_sell"
+        android:enabled="true"
+        android:icon="@drawable/bottombarsell"
+        android:title="@string/bottombarsell"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/bottombarsettings"
+        android:title="@string/bottombarsettings"
+        app:showAsAction="always" />
+
+</menu>

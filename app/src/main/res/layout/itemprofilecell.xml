@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:weightSum="20">
+
+    <TextView
+        android:id="@+id/profilenumber"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="#1"
+        android:textAlignment="center"
+        android:textColor="@color/lighterdark"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="uiuiui"
+        android:textAlignment="viewStart"
+        android:textColor="@color/lighterdark"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal"
+        android:weightSum="40">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profileinvestmentvalue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="-"
+                    android:textAlignment="center"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/buypricetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/investmentvalue"
+                    android:textAlignment="center"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profileinvestmentspent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:animateLayoutChanges="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:text="---"
+                    android:textAlignment="center"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/buychange24htext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:animateLayoutChanges="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/investmentspent"
+                    android:textAlignment="center"
+                    android:textColor="@color/lighterdark"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

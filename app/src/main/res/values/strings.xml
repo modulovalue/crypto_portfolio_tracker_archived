@@ -1,0 +1,307 @@
+<resources>
+
+     <string name="oslizenzentext" translatable="false">
+         \n
+        Welcome
+A customizable welcome screen for Android Apps
+        Copyright 2015-2017 Stephen Tuso
+\n
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+\n
+         \n
+material-dialogs
+The MIT License (MIT)
+
+Copyright © 2014-2016 Aidan Michael Follestad
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+\n\n\n Retrofit
+         Copyright 2013 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+\n\n\n
+
+
+         Toasty,  https://github.com/GrenderG/Toasty/blob/master/LICENSE
+
+         \n\n
+
+         Shimmer Copyright 2014 Romain Piel
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+         \n\n\n
+
+         Kotlin Prefs Copyright 2017 Marcin Moskała
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+         \n\n\n
+
+         Paper
+   Copyright 2015 Aleksey Masny
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+         \n\n\n
+
+        Load Toast Library Copyright 2015 CodeCrafted. http://codecrafted.net/
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+    </string>
+
+    <string name="app_name" translatable="false">Crypto Portfolio Tracker</string>
+    <string name="bottombarprices">Prices</string>
+    <string name="bottombarbuy">Buy</string>
+    <string name="bottombarsell">Sell</string>
+    <string name="bottombarsettings">Serttings</string>
+    <string name="circulationsupply">Circulating Supply</string>
+    <string name="change24h">% in 24h </string>
+
+    <string name="million">m</string>
+    <string name="billion">b</string>
+    <string name="trillion">t</string>
+    <string name="refresh">Refresh</string>
+    <string name="statshelp">Help</string>
+    <string name="statsshoweuros">€</string>
+    <string name="statsshowdollars">Currency</string>
+    <string name="sellhasamount">You own</string>
+    <string name="options">Settings</string>
+    <string name="actionsell">Sell</string>
+    <string name="sellcurrentprice">Current price</string>
+    <string name="actionbuy">Buy</string>
+    <string name="marketcaptext">Market Cap</string>
+    <string name="dataisloading">Prices are loading</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="totalworth">Total value</string>
+    <string name="euro">€</string>
+    <string name="dollar">$</string>
+    <string name="btc">BTC</string>
+    <string name="selectedcurrencyrepresentation">%1$s selected</string>
+    <string name="oslizenzen">Open Source Licenses</string>
+
+    <string name="closedialog">Close</string>
+    <string name="sendmailusing">Send Email with...</string>
+    <string name="showdonateaddress">Show Address</string>
+    <string name="donate">Donate</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="resettransactionstitle">Reset</string>
+    <string name="agree">Yes</string>
+    <string name="disagree">No</string>
+    <string name="resettransactionscontent">Reset all transactions?</string>
+    <string name="notrealtransactions">All transactions are fictitious. You\'re not dealing with real cryptocurrencies</string>
+
+    <string name="buyfinnaly">Buy</string>
+    <string name="sellfinally">Sell</string>
+    <string name="amountofin">Amount of 1%s</string>
+    <string name="fieldsempty">Required fields are not filled out</string>
+    <string name="cantbuyzero">0 %s can\'t be purchased</string>
+    <string name="cantsellzero">0 %s can\'t be sold</string>
+    <string name="ownsamountof">You own: %s</string>
+    <string name="whatdoyouwanttodo">What would you like to do?</string>
+    <string name="abort">Abort</string>
+    <string name="notenoughcurrency">Not enough %s available</string>
+    <string name="tutorialtitle">Welcome!</string>
+
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="tutfirstpagetitle">Manage your cryptocurrencies</string>
+    <string name="tutfirstpagecontent">and observe the value of your portfolio</string>
+    <string name="tutsecondpagetitle">Or create a virtual portfolio</string>
+    <string name="tutsecondpagecontent">before you invest in cryptocurrencies</string>
+    <string name="tutthirdpagetitle">All prices are up-to-date</string>
+    <string name="tutthirdpagecontent">so you can stay up-to-date!</string>
+    <string name="copytoclipboard">Copy</string>
+    <string name="copiedprivateaddress">%s address was copied.</string>
+    <string name="transactionselecteverything">All</string>
+    <string name="bottombaroverview">Overview</string>
+    <string name="investmentcredit">Left</string>
+    <string name="investmentvalue">Current value</string>
+    <string name="investmentoverviewtext">Overview</string>
+    <plurals name="investmentnocryptocurrencyavailable">
+        <item quantity="one">%d Investments</item>
+        <item quantity="other">%d Investments</item>
+    </plurals>
+    <string name="investmentpercentageprofit">Profit in %</string>
+    <string name="unsupportedCurrency">This currency is not supported yet.</string>
+    <string name="investmentspent">Spent</string>
+    <string name="comingsoon">TODO</string>
+    <string name="choosethecurrency">Please select a currency</string>
+    <string name="whichcurrencywouldyoulike">Please select a currency for the limit</string>
+    <string name="choosealimitineuro">Select a limit in €</string>
+    <string name="choosealimitindollar">Select a limit in $</string>
+    <string name="dataisfresh">Prices are up-to-date</string>
+    <string name="anerrorhaseccured">An error has occurred, reason: %s</string>
+    <string name="pleasecheckyourinternetconnection">Please check your internet connection</string>
+    <string name="dataisnowfresh">Prices were updated</string>
+    <string name="changeprofile">Profile</string>
+    <string name="profiletitle">Change profile</string>
+    <string name="addprofile">Add profile</string>
+    <string name="createprofiletitle">Create a new profile</string>
+    <string name="createprofilecontent">Please choose a name for your new profile</string>
+    <string name="hintprofilename">Name</string>
+    <string name="Investment">Investment</string>
+    <string name="investmenttitle">Overview</string>
+    <string name="settingstitle">Settings</string>
+    <string name="scredit">Credit</string>
+    <string name="screditsub">Set a new limit</string>
+    <string name="srate">Rate this app on the Play Store</string>
+    <string name="sratesub">Please rate this app to support further development</string>
+    <string name="ssource">Source</string>
+    <string name="ssomethingsmissing">Feature request?</string>
+    <string name="ssclickhere">Click here</string>
+    <string name="featurerequest">CPT feature request</string>
+    <string name="scontact">Contact</string>
+    <string name="scontactbetreff">CPS Contact</string>
+    <string name="sdonate">Donate</string>
+    <string name="sdonatesub">Support the development of new features</string>
+    <string name="soslicences">OS licenses</string>
+    <string name="sresettransactions">Reset</string>
+    <string name="sresettransactionssub">Reset all transactions</string>
+    <string name="limit">Limit:</string>
+    <string name="statstitle">Prices</string>
+    <string name="updatedat">Updated at:</string>
+    <string name="actionremovetransactions">Remove all transactions</string>
+    <string name="removetransactionstitle">Remove all %s transactions?</string>
+    <string name="transactionsString">Transactions</string>
+
+    <plurals name="transaktionspresent">
+        <item quantity="one">%d Transaction</item>
+        <item quantity="other">%d Transactions</item>
+    </plurals>
+
+    <string name="youhavetobuyatfirst">You have to own something before you can sell.</string>
+    <string name="customtransactionpurchase">Custom transaction (buy)</string>
+    <string name="newtransaction">Custom transaction</string>
+    <string name="customtransactionsubtitle">Custom</string>
+    <string name="investmentfiatprofit">Profit in fiat money</string>
+    <string name="investmentcreditlimit">Limit</string>
+    <string name="worthspenttitle">worth/spent</string>
+    <string name="limitlefttitle">limit/left</string>
+    <string name="open">Open</string>
+    <string name="edit">Edit</string>
+    <string name="profileselected">Profile selected</string>
+    <string name="profilewhatdoyouwanttodo">What do you want to do?</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="suredeleteprofile">Are you sure you want to delete this profile?</string>
+    <string name="enteranewprofilename">Please enter a new name</string>
+    <string name="shortrate">Rate</string>
+    <string name="boundtoprice">price-bound?</string>
+    <string name="investmentheader">Symbol | Name | Profit | Profit in %</string>
+    <string name="transactionheader">Name | Amount | Volume</string>
+    <string name="cantdeleteselectedprofile">A selected profile can\'t be deleted</string>
+    <string name="errorpleasecontactdev">Error, please contact the developer</string>
+    <string name="transactionoverviewtitle">Transactions</string>
+    <string name="transactionbottombartitle">Transactions</string>
+    <string name="gotodetailedtransactionoverview">Go to detailed transaction overview</string>
+    <string name="marktext">Mark</string>
+    <string name="unmarktext">Unmark</string>
+    <string name="deletestring">Delete</string>
+    <string name="editstring">Edit</string>
+    <string name="filterstring">Filter</string>
+    <string name="willworknextversion">Will work in the next update!</string>
+    <string name="transactiondatecurrent">Date of transaction: now</string>
+    <string name="transactiondatecustom">Date of transaction: %s</string>
+    <string name="informationaboutcustomdate">You can set a custom date for the transaction or use the current time</string>
+    <string name="informationaboutcustomdateresettonoworset">The custom date can\'t lie behin the last transaction which is: %s</string>
+    <string name="setdatetonow">Change to now</string>
+    <string name="setcustomdate">Custom date</string>
+    <string name="transactiontherearenooldtransactions">There are no older transactions</string>
+    <string name="performancestring">Performance</string>
+    <string name="sortstring">Sort</string>
+    <string name="sortbyNameasc">Name asc.</string>
+    <string name="sortbyChangein24hasc">% in 24h asc.</string>
+    <string name="sortbyMarketCapasc">Market Cap asc.</string>
+    <string name="sortbyPriceasc">Price asc.</string>
+    <string name="sortbyShortnameasc">Short name asc.</string>
+    <string name="sortbynothingasc">Sort: - asc.</string>
+    <string name="sorbyChangein1hasc">% in 1h asc.</string>
+    <string name="sortByChangein7dasc">% in 7d asc.</string>
+    <string name="sortbyNamedesc">Name desc.</string>
+    <string name="sortbyChangein24hdesc">% in 24h desc.</string>
+    <string name="sortbyMarketCapdesc">Market Cap desc.</string>
+    <string name="sortbyPricedesc">Price desc.</string>
+    <string name="sortbyShortnamedesc">Short name desc.</string>
+    <string name="sortbynothingdesc">Sort: - desc.</string>
+    <string name="sorbyChangein1hdesc">% in 1h desc.</string>
+    <string name="sortByChangein7ddesc">% in 7d desc.</string>
+    <string name="areyousureaboutdeletion">Do you really want to remove this transaction?</string>
+    <string name="doyoureallywanttodeletethistransaction">You can\'t undo this action. If you delete this transaction, the previous transaction for this currency will become deletable</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/investmentline"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <ImageView
+        android:id="@+id/lineimage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_weight="0"
+        android:padding="2dp"
+        app:srcCompat="@drawable/bitcoin"/>
+
+    <TextView
+        android:id="@+id/linename"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Bitcoin (BTC)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/lighterdark"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/lineprofitfiat"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="3700 €"
+        android:textAlignment="center"
+        android:textColor="@color/lighterdark"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/lineprofitpercentage"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="+4,8%"
+        android:textAlignment="textEnd"
+        android:textColor="@color/greenpercentage"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+</LinearLayout>

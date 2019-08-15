@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#020138</color>
+    <color name="colorPrimaryDark">#050818</color>
+    <color name="colorAccent">#460202</color>
+    <color name="welcomebackgroundcolor">#ffffff</color>
+    <color name="welcometextcolor">#000000</color>
+    <color name="lighterdark">#3b3b3b</color>
+    <color name="realblack">#000000</color>
+    <color name="slightlyblackColor">#5e5e5e</color>
+    <color name="slightlierblackColor">#9b9b9b</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="greenpercentage">#008000</color>
+    <color name="redpercentage">#dc0000</color>
+    <color name="lightGray">#cacaca</color>
+    <color name="colorGreenPrimaryi">#006319</color>
+    <color name="disclaimergrey">#616161</color>
+    <color name="colorGreenPrimary">#006319</color>
+    <color name="fadeTitleGray">#7c7c7c</color>
+</resources>

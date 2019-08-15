@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/whitecolor"
+             tools:context="modestasvalauskas.com.cryptopurchasesimulator.screens.MainActivity.Fragments.NothingToSellFragment.NothingToSellFragment">
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:lineSpacingExtra="1sp"
+        android:padding="20dp"
+        android:text="@string/youhavetobuyatfirst"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        />
+
+</FrameLayout>
